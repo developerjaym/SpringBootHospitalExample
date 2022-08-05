@@ -1,0 +1,32 @@
+{
+  "name": "St. Jay's",
+  "departments": [
+    {
+      "id": 1,
+      "specialty": "CARDIOLOGY",
+      "doctors": [
+
+      ],
+      "hospital": {
+        "id": 1,
+        "name": "St. Jay's",
+        "departments": [
+          {
+            "id": 1,
+            "specialty": "CARDIOLOGY",
+            "hospital": {
+              "id": 1,
+              "name": "St. Jay's",
+              "departments": [
+                {
+
+                }
+              ]
+            }
+
+          }
+        ]
+      }
+    }
+  ]
+}
