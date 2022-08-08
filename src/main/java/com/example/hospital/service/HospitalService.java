@@ -36,7 +36,9 @@ public class HospitalService {
 
     public HospitalDTO getHospital(Long id) {
         Hospital hospital =
-                hospitalRepository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
+                hospitalRepository.findById(id)
+                        .orElseThrow(
+                                () -> new ResponseStatusException(HttpStatus.NOT_FOUND));
         return mapper.map(hospital, HospitalDTO.class);
     }
 
